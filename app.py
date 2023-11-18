@@ -11,8 +11,8 @@ def index():
 @app.route('/add', methods=['POST'])
 def add():
     task_title = request.form['task']
-    task_catergory = request.form['task_catergory']
-    task = {task_title, task_catergory}
+    task_category = request.form['task_category']
+    task = {'title': task_title, 'category': task_category}
     tasks.append(task)
     return redirect(url_for('index'))
 
