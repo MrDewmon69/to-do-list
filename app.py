@@ -12,7 +12,8 @@ def index():
 def add():
     task_title = request.form['task']
     task_category = request.form['task_category']
-    task = {'title': task_title, 'category': task_category}
+    task_status = request.form['task_status']
+    task = {'title': task_title, 'category': task_category, 'status': task_status}
     tasks.append(task)
     return redirect(url_for('index'))
 
