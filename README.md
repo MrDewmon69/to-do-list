@@ -12,4 +12,6 @@ pip install -r requirements.txt
 
 Simply run `python app.py` to host the project locally. <br>
 
-`python app.py`
+```
+python app.py
+```
