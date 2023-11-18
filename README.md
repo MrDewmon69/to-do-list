@@ -10,5 +10,6 @@ pip install -r requirements.txt
 
 ## Hosting
 
-Simply run `python app.py` to host the project locally.
+Simply run `python app.py` to host the project locally. <br>
+
 `python app.py`
