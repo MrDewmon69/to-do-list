@@ -2,7 +2,7 @@
 
 ## Setup
 
-Setup dependencies by running the following on the terminal
+Setup required dependencies by running the following on the terminal
 
 ```
 pip install -r requirements.txt
